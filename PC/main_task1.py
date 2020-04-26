@@ -11,7 +11,7 @@ import socket
 import time
 
 from func import *
-from task1 import taskOneMain
+from utils import taskOneMain
 
 def send_cmd(cmd):
         message = cmd.encode()
